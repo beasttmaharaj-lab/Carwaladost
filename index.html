@@ -3,120 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Wala Dost | Private Touring Club</title>
+    <title>Car Wala Dost | Private Touring Club Greater Noida</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root {
-            --brand-blue: #0a1d37;
-            --brand-gold: #f4b41a;
-        }
+        :root { --brand-blue: #0a1d37; --brand-gold: #f4b41a; }
         .bg-brand-blue { background-color: var(--brand-blue); }
         .text-brand-gold { color: var(--brand-gold); }
-        .border-brand-gold { border-color: var(--brand-gold); }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-gray-50 font-sans">
-
     <nav class="bg-brand-blue text-white p-4 sticky top-0 z-50 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold tracking-tighter">CAR WALA <span class="text-brand-gold">DOST</span></h1>
-            <div class="hidden md:flex space-x-6 font-semibold">
-                <a href="#home" class="hover:text-brand-gold">Home</a>
-                <a href="#fleet" class="hover:text-brand-gold">Our Fleet</a>
-                <a href="#why-us" class="hover:text-brand-gold">Why Choose Us</a>
-                <a href="tel:8057296545" class="bg-brand-gold text-brand-blue px-4 py-1 rounded-full">Call Now</a>
-            </div>
+            <h1 class="text-2xl font-bold tracking-tight">CAR WALA <span class="text-brand-gold">DOST</span></h1>
+            <a href="tel:8285278722" class="bg-brand-gold text-brand-blue px-4 py-1 rounded-full font-bold text-sm">CALL NOW</a>
         </div>
     </nav>
 
-    <header id="home" class="relative bg-brand-blue text-white py-20 px-6 text-center">
-        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=2070')] bg-cover bg-center"></div>
+    <header class="relative bg-brand-blue text-white py-20 px-6 text-center border-b-8 border-brand-gold">
         <div class="relative z-10">
-            <h2 class="text-brand-gold italic text-xl md:text-2xl font-bold mb-2">DRIVE YOUR JOURNEY</h2>
-            <h3 class="text-4xl md:text-6xl font-black mb-4 underline decoration-brand-gold">— WE'VE GOT YOUR BACK —</h3>
-            <p class="text-lg md:text-xl mb-8">ALL TYPES OF CARS FOR <span class="bg-brand-gold text-brand-blue px-2 font-bold">SELF DRIVE</span></p>
-            <a href="https://wa.me/918057296545" class="bg-brand-gold text-brand-blue text-xl font-extrabold py-4 px-10 rounded-lg shadow-2xl hover:scale-105 transition-transform inline-block">BOOK NOW: 8057296545</a>
+            <h2 class="text-brand-gold italic text-xl font-bold mb-2 uppercase tracking-widest">Drive Your Journey</h2>
+            <h3 class="text-4xl md:text-6xl font-black mb-6 uppercase leading-tight underline decoration-brand-gold">— WE'VE GOT YOUR BACK —</h3>
+            <p class="text-lg mb-8 font-medium">ALL TYPES OF CARS FOR <span class="bg-brand-gold text-brand-blue px-2 font-bold">SELF DRIVE</span></p>
+            <a href="https://wa.me/918285278722" class="bg-brand-gold text-brand-blue text-xl font-extrabold py-4 px-8 rounded-lg shadow-2xl inline-block hover:scale-105 transition-transform">BOOK NOW: 8285278722</a>
         </div>
     </header>
 
     <section id="fleet" class="py-16 container mx-auto px-6">
-        <h2 class="text-3xl font-black text-center mb-12 text-brand-blue uppercase tracking-widest">Our Fleet</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-brand-gold">
-                <div class="h-48 bg-gray-200 flex items-center justify-center font-bold text-gray-400 italic text-2xl">SCORPIO</div>
-                <div class="p-4">
-                    <h4 class="font-bold text-xl uppercase">Scorpio</h4>
-                    <p class="text-sm text-gray-600 italic">Bold. Powerful. Built for every adventure.</p>
-                </div>
+        <h2 class="text-3xl font-black text-center mb-12 text-brand-blue uppercase tracking-tighter">Our Fleet</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+            <div class="bg-white rounded-xl shadow-md p-8 border-b-4 border-brand-gold">
+                <h4 class="font-black text-2xl text-brand-blue uppercase mb-2">Scorpio</h4>
+                <p class="text-sm text-gray-600">Bold. Powerful. Built for every adventure.</p>
             </div>
-            <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-brand-gold">
-                <div class="h-48 bg-gray-200 flex items-center justify-center font-bold text-gray-400 italic text-2xl">THAR</div>
-                <div class="p-4">
-                    <h4 class="font-bold text-xl uppercase">Thar</h4>
-                    <p class="text-sm text-gray-600 italic">Go anywhere. Live the adventure.</p>
-                </div>
+            <div class="bg-white rounded-xl shadow-md p-8 border-b-4 border-brand-gold">
+                <h4 class="font-black text-2xl text-brand-blue uppercase mb-2">Thar</h4>
+                <p class="text-sm text-gray-600">Go anywhere. Live the adventure.</p>
             </div>
-            <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-brand-gold">
-                <div class="h-48 bg-gray-200 flex items-center justify-center font-bold text-gray-400 italic text-2xl">SEDAN</div>
-                <div class="p-4">
-                    <h4 class="font-bold text-xl uppercase">Luxury Sedan</h4>
-                    <p class="text-sm text-gray-600 italic">Comfortable. Stylish. Ride in class.</p>
-                </div>
+            <div class="bg-white rounded-xl shadow-md p-8 border-b-4 border-brand-gold">
+                <h4 class="font-black text-2xl text-brand-blue uppercase mb-2">Swift</h4>
+                <p class="text-sm text-gray-600">Zippy. Reliable. Perfect for city drives.</p>
             </div>
-            <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-brand-gold">
-                <div class="h-48 bg-gray-200 flex items-center justify-center font-bold text-gray-400 italic text-2xl">SUV & MUV</div>
-                <div class="p-4">
-                    <h4 class="font-bold text-xl uppercase">SUV & MUV</h4>
-                    <p class="text-sm text-gray-600 italic">More space. More comfort. More memories.</p>
-                </div>
+            <div class="bg-white rounded-xl shadow-md p-8 border-b-4 border-brand-gold">
+                <h4 class="font-black text-2xl text-brand-blue uppercase mb-2">Baleno</h4>
+                <p class="text-sm text-gray-600">Stylish. Premium. Comfort in every journey.</p>
             </div>
         </div>
     </section>
 
-    <section id="why-us" class="bg-gray-100 py-16">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-black text-center mb-12 text-brand-blue uppercase tracking-widest">Why Choose Us?</h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
-                <div>
-                    <i class="fa-solid fa-shield-halved text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">Well Maintained Cars</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-indian-rupee-sign text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">Affordable Prices</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-steering-wheel text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">Self Drive Available</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-calendar-check text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">Easy Booking Process</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-location-dot text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">Pickup & Drop Facility</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-headset text-4xl text-brand-blue mb-2"></i>
-                    <p class="font-bold uppercase text-xs">24/7 Customer Support</p>
-                </div>
+    <section class="bg-brand-blue py-16 px-6">
+        <div class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow-2xl border-l-8 border-brand-gold">
+            <h3 class="text-2xl font-black text-brand-blue mb-6 uppercase underline decoration-brand-gold">Visit Us</h3>
+            <p class="text-gray-900 font-extrabold text-lg uppercase">GF-80A, Galleria Market</p>
+            <p class="text-gray-800 font-bold mb-2 uppercase">(THE HEMISPHERE)</p>
+            <p class="text-gray-600 mb-8 font-medium">Near Delta - 1 metro station, Greater Noida</p>
+            
+            <div class="space-y-4 pt-4 border-t border-gray-200">
+                <a href="tel:8285278722" class="block font-black text-brand-blue text-xl hover:text-brand-gold transition-colors"><i class="fas fa-phone-alt mr-3 text-brand-gold"></i> 8285278722</a>
+                <a href="tel:7895632615" class="block font-black text-brand-blue text-xl hover:text-brand-gold transition-colors"><i class="fas fa-phone-alt mr-3 text-brand-gold"></i> 7895632615</a>
             </div>
         </div>
     </section>
 
-    <footer class="bg-brand-blue text-white py-10 border-t-4 border-brand-gold">
-        <div class="container mx-auto px-6 text-center">
-            <p class="text-xl font-bold mb-4">RENT EASY, RIDE EASY</p>
-            <div class="flex flex-wrap justify-center gap-6 mb-6 text-sm uppercase tracking-widest">
-                <span><i class="fas fa-check-circle text-brand-gold mr-2"></i>100% Satisfaction</span>
-                <span><i class="fas fa-map-marker-alt text-brand-gold mr-2"></i>Pan India Service</span>
-                <span><i class="fas fa-lock text-brand-gold mr-2"></i>Safe & Secure</span>
-            </div>
-            <p class="opacity-50 text-xs">© 2026 Car Wala Dost - Private Touring Club</p>
-        </div>
+    <footer class="bg-brand-blue text-white py-10 text-center border-t-4 border-brand-gold uppercase text-[10px] tracking-widest font-black">
+        <p class="mb-2">Rent Easy, Ride Easy</p>
+        <p class="opacity-50">© 2026 Car Wala Dost - Private Touring Club</p>
     </footer>
-
 </body>
 </html>
+
+    
