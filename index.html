@@ -7,51 +7,56 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-950 text-white font-sans">
-    <nav class="p-4 border-b border-yellow-500/20 bg-gray-900 sticky top-0 z-50 flex justify-between items-center">
-        <h1 class="font-black text-xl tracking-tighter">CAR WALA <span class="text-yellow-500">DOST</span></h1>
-        <a href="tel:8285278722" class="bg-yellow-500 text-black px-4 py-1 rounded-full font-bold text-xs uppercase">Call Now</a>
+<body class="bg-black text-white font-sans">
+    <nav class="p-4 border-b border-yellow-500/20 bg-black/90 sticky top-0 z-50 flex justify-between items-center">
+        <h1 class="font-black text-xl tracking-tighter uppercase">CAR WALA <span class="text-yellow-500">DOST</span></h1>
+        <a href="tel:8285278722" class="bg-yellow-500 text-black px-5 py-2 rounded-full font-black text-xs uppercase">Call Now</a>
     </nav>
 
-    <header class="py-16 px-6 text-center bg-gray-900">
-        <h2 class="text-yellow-500 font-bold uppercase tracking-widest text-xs mb-3">Premium Self-Drive</h2>
-        <h3 class="text-4xl font-black mb-6 leading-tight uppercase underline decoration-yellow-500 decoration-4">We've Got<br>Your Back</h3>
-        <a href="https://wa.me/918285278722" class="bg-yellow-500 text-black font-black py-4 px-8 rounded-xl shadow-xl inline-block active:scale-95 transition-transform">WHATSAPP BOOKING</a>
+    <header class="relative py-20 px-6 text-center">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1000" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black"></div>
+        </div>
+        <div class="relative z-10">
+            <h3 class="text-4xl font-black mb-4 leading-tight uppercase italic text-yellow-500">Premium Car Rentals</h3>
+            <p class="text-gray-300 mb-8 font-bold">GREATER NOIDA SELF-DRIVE</p>
+            <a href="https://wa.me/918285278722" class="bg-yellow-500 text-black font-black py-4 px-10 rounded-2xl shadow-2xl inline-block text-lg uppercase tracking-tighter">
+                <i class="fab fa-whatsapp mr-2 text-xl"></i> Book on WhatsApp
+            </a>
+        </div>
     </header>
 
-    <section class="p-6 space-y-6">
-        <h2 class="text-lg font-black uppercase tracking-widest text-yellow-500 border-l-4 border-yellow-500 pl-3">Our Fleet</h2>
+    <section class="p-6 space-y-10">
+        <h2 class="text-xl font-black uppercase tracking-tighter border-l-4 border-yellow-500 pl-4">Our Premium Fleet</h2>
         
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
-            <h4 class="text-2xl font-black uppercase italic">Scorpio Classic</h4>
-            <p class="text-gray-500 text-sm mt-1">7 Seater • Diesel • Power</p>
+        <div class="bg-zinc-900 rounded-[2rem] overflow-hidden border border-white/5 shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h4 class="text-2xl font-black uppercase italic">Scorpio Classic</h4>
+                <p class="text-gray-400 text-sm font-bold uppercase tracking-widest mt-1">7 Seater • Diesel • White</p>
+            </div>
         </div>
 
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
-            <h4 class="text-2xl font-black uppercase italic text-yellow-500">Mahindra Thar</h4>
-            <p class="text-gray-500 text-sm mt-1">4x4 • Off-Road • Adventure</p>
-        </div>
-
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
-            <h4 class="text-2xl font-black uppercase italic">Swift / Baleno</h4>
-            <p class="text-gray-500 text-sm mt-1">City Drives • Comfort • Efficiency</p>
-        </div>
-    </section>
-
-    <section class="p-6 pb-24">
-        <div class="bg-yellow-500 text-black p-8 rounded-[2rem] shadow-2xl">
-            <h3 class="text-xl font-black mb-4 uppercase italic">Find Us</h3>
-            <p class="font-extrabold text-lg">GF-80A, Galleria Market</p>
-            <p class="text-sm font-bold mb-6 opacity-80 uppercase">The Hemisphere, Greater Noida</p>
-            <div class="space-y-3 pt-4 border-t border-black/10">
-                <p class="font-black text-xl"><i class="fas fa-phone mr-3"></i>8285278722</p>
-                <p class="font-black text-xl"><i class="fas fa-phone mr-3"></i>7895632615</p>
+        <div class="bg-zinc-900 rounded-[2rem] overflow-hidden border border-white/5 shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h4 class="text-2xl font-black uppercase italic text-yellow-500">Mahindra Thar</h4>
+                <p class="text-gray-400 text-sm font-bold uppercase tracking-widest mt-1">4x4 • Adventure • Offroad</p>
             </div>
         </div>
     </section>
 
-    <footer class="p-8 text-center border-t border-gray-900">
-        <p class="opacity-30 text-[10px] font-black tracking-[0.5em] uppercase text-yellow-500">Rent Easy. Ride Easy.</p>
-    </footer>
+    <section class="p-6 pb-24">
+        <div class="bg-yellow-500 text-black p-10 rounded-[3rem] shadow-2xl">
+            <h3 class="text-3xl font-black mb-6 uppercase italic tracking-tighter">Visit Us</h3>
+            <p class="font-black text-xl leading-tight">GF-80A, GALLERIA MARKET</p>
+            <p class="text-sm font-extrabold mb-8 opacity-80 uppercase tracking-widest leading-relaxed">The Hemisphere, Near Delta - 1<br>Greater Noida</p>
+            <div class="space-y-4 pt-6 border-t border-black/20">
+                <a href="tel:8285278722" class="flex items-center font-black text-2xl tracking-tighter italic underline"><i class="fas fa-phone-alt mr-4 text-sm"></i> 8285278722</a>
+                <a href="tel:7895632615" class="flex items-center font-black text-2xl tracking-tighter italic underline"><i class="fas fa-phone-alt mr-4 text-sm"></i> 7895632615</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
