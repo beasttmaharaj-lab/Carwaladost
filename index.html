@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Car Wala Dost | Self Drive Cars</title>
+<title>Car Wala Dost | Private Touring Club</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -15,45 +15,57 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@400;700;900&display=swap');
 
-body{
-    font-family:'Inter',sans-serif;
-    background:#05070a;
-    color:white;
-}
-
-.heading{
-    font-family:'Syncopate',sans-serif;
-}
-
-.gold{
-    color:#f4b41a;
-}
-
-.gold-bg{
-    background:#f4b41a;
-}
-
-.card{
-    background:linear-gradient(180deg,#111827,#0b1220);
-    border:1px solid rgba(255,255,255,0.08);
-    box-shadow:0 10px 30px rgba(0,0,0,0.5);
-}
-
-.tag{
-    background:rgba(255,255,255,0.05);
-    border:1px solid rgba(255,255,255,0.08);
-}
-
-.hero{
-    background:
-    linear-gradient(to bottom,rgba(0,0,0,.75),rgba(0,0,0,.88)),
-    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop');
-    background-size:cover;
-    background-position:center;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#05070a;
+color:white;
+overflow-x:hidden;
+}
+
+.heading{
+font-family:'Syncopate',sans-serif;
+}
+
+.gold{
+color:#f4b41a;
+}
+
+.gold-bg{
+background:#f4b41a;
+}
+
+.card{
+background:linear-gradient(180deg,#111827,#0b1220);
+border:1px solid rgba(255,255,255,0.08);
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.tag{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+}
+
+.hero{
+background:
+linear-gradient(to bottom,rgba(0,0,0,.80),rgba(0,0,0,.88)),
+url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop');
+
+background-size:cover;
+background-position:center;
+}
+
+.glow{
+box-shadow:0 0 30px rgba(244,180,26,.4);
 }
 
 </style>
@@ -65,11 +77,33 @@ html{
 
 <nav class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
 
-<div class="max-w-6xl mx-auto flex justify-between items-center px-5 py-4">
+<div class="max-w-7xl mx-auto flex justify-between items-center px-5 py-4">
 
-<h1 class="heading text-lg md:text-2xl italic">
+<!-- LOGO -->
+
+<div class="flex items-center gap-3">
+
+<img
+src="YOUR_LOGO_IMAGE.png"
+alt="Car Wala Dost Logo"
+class="w-14 h-14 object-contain glow"
+/>
+
+<div>
+
+<h1 class="heading text-lg md:text-2xl italic leading-tight">
 CAR WALA <span class="gold">DOST</span>
 </h1>
+
+<p class="text-[9px] uppercase tracking-[0.3em] text-gray-400">
+Private Touring Club
+</p>
+
+</div>
+
+</div>
+
+<!-- CALL BUTTON -->
 
 <a href="tel:8285278722"
 class="gold-bg text-black px-5 py-2 rounded-full font-black text-xs md:text-sm hover:scale-105 transition">
@@ -82,17 +116,21 @@ CALL NOW
 
 </nav>
 
-<!-- HERO -->
+<!-- HERO SECTION -->
 
-<section class="hero pt-36 pb-24 px-6 text-center">
+<section class="hero pt-40 pb-28 px-6 text-center">
 
 <p class="gold uppercase tracking-[0.4em] text-[10px] font-black mb-5">
 Greater Noida Premium Self Drive Club
 </p>
 
-<h2 class="heading text-4xl md:text-6xl italic leading-tight mb-6">
+<h2 class="heading text-4xl md:text-7xl italic leading-tight mb-3">
 DRIVE YOUR <span class="gold">JOURNEY</span>
 </h2>
+
+<p class="text-white uppercase tracking-[0.35em] text-xs md:text-sm font-black mb-6">
+— WE'VE GOT YOUR BACK —
+</p>
 
 <p class="text-gray-300 max-w-2xl mx-auto text-sm md:text-lg mb-10">
 Affordable Self Drive Cars • SUV • Sedan • Hatchback • 24/7 Booking Support
@@ -109,7 +147,7 @@ Book On WhatsApp
 </a>
 
 <a href="tel:8285278722"
-class="border border-yellow-500 text-yellow-400 px-10 py-4 rounded-2xl font-black uppercase text-sm">
+class="border border-yellow-500 text-yellow-400 px-10 py-4 rounded-2xl font-black uppercase text-sm hover:bg-yellow-500 hover:text-black transition">
 
 Call Support
 
@@ -119,9 +157,13 @@ Call Support
 
 </section>
 
-<!-- WHY CHOOSE -->
+<!-- WHY CHOOSE US -->
 
 <section class="max-w-6xl mx-auto px-5 py-10">
+
+<h2 class="heading text-3xl md:text-5xl italic text-center mb-12">
+WHY CHOOSE <span class="gold">US?</span>
+</h2>
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
 
@@ -149,17 +191,21 @@ Call Support
 
 </section>
 
-<!-- CARS -->
+<!-- OUR FLEET -->
 
-<section class="max-w-6xl mx-auto px-5 py-8 space-y-10">
+<section class="max-w-6xl mx-auto px-5 py-10">
+
+<h2 class="heading text-3xl md:text-5xl italic text-center mb-12">
+OUR <span class="gold">FLEET</span>
+</h2>
 
 <!-- SCORPIO -->
 
-<div class="card rounded-[35px] overflow-hidden">
+<div class="card rounded-[35px] overflow-hidden mb-10">
 
 <img
-src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Scorpio-Classic/10764/1690268018478/front-left-side-47.jpg"
-alt="Scorpio Classic"
+src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1600&auto=format&fit=crop"
+alt="Scorpio"
 class="w-full h-72 md:h-[420px] object-cover"
 />
 
@@ -178,7 +224,7 @@ SCORPIO CLASSIC
 </div>
 
 <p class="text-gray-400 uppercase tracking-[0.25em] text-xs mb-8">
-Powerful SUV • Diesel Engine • Luxury Feel • Family Trips • Long Route Comfort
+Powerful SUV • Diesel Engine • Long Route Comfort • Premium Feel
 </p>
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -209,11 +255,12 @@ Book Scorpio
 </a>
 
 </div>
+
 </div>
 
 <!-- THAR -->
 
-<div class="card rounded-[35px] overflow-hidden">
+<div class="card rounded-[35px] overflow-hidden mb-10">
 
 <img
 src="https://imgd.aeplcdn.com/664x374/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg?q=80"
@@ -236,7 +283,7 @@ MAHINDRA THAR
 </div>
 
 <p class="text-gray-400 uppercase tracking-[0.25em] text-xs mb-8">
-Adventure Beast • Hard Top • Off-Road King • Stylish Black SUV
+Adventure Beast • Off-Road King • Hard Top • Premium SUV
 </p>
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -267,6 +314,7 @@ Rent Thar
 </a>
 
 </div>
+
 </div>
 
 <!-- SWIFT + BALENO -->
@@ -298,17 +346,18 @@ SPORTY
 </div>
 
 <p class="text-gray-400 uppercase tracking-[0.2em] text-xs mb-7">
-High Mileage • City Drive • Petrol Manual • Stylish Hatchback
+High Mileage • City Drive • Stylish Hatchback
 </p>
 
 <a href="https://wa.me/918285278722"
-class="block text-center gold-bg text-black py-4 rounded-2xl font-black uppercase hover:scale-[1.02] transition">
+class="block text-center gold-bg text-black py-4 rounded-2xl font-black uppercase">
 
 Rent Swift
 
 </a>
 
 </div>
+
 </div>
 
 <!-- BALENO -->
@@ -336,53 +385,16 @@ PREMIUM
 </div>
 
 <p class="text-gray-400 uppercase tracking-[0.2em] text-xs mb-7">
-Luxury Interior • Smooth Drive • Family Comfort • Nexa Experience
+Luxury Interior • Smooth Drive • Nexa Experience
 </p>
 
 <a href="https://wa.me/918285278722"
-class="block text-center gold-bg text-black py-4 rounded-2xl font-black uppercase hover:scale-[1.02] transition">
+class="block text-center gold-bg text-black py-4 rounded-2xl font-black uppercase">
 
 Book Baleno
 
 </a>
 
-</div>
-</div>
-
-</div>
-
-</section>
-
-<!-- EXTRA FEATURES -->
-
-<section class="max-w-6xl mx-auto px-5 py-12">
-
-<div class="card rounded-[35px] p-10">
-
-<h2 class="heading text-2xl md:text-4xl italic mb-10 text-center">
-WHY CHOOSE <span class="gold">US?</span>
-</h2>
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-
-<div>
-<i class="fas fa-check-circle text-4xl gold mb-4"></i>
-<p class="font-black uppercase text-sm">Verified Cars</p>
-</div>
-
-<div>
-<i class="fas fa-gas-pump text-4xl gold mb-4"></i>
-<p class="font-black uppercase text-sm">Fuel Efficient</p>
-</div>
-
-<div>
-<i class="fas fa-road text-4xl gold mb-4"></i>
-<p class="font-black uppercase text-sm">Long Route Ready</p>
-</div>
-
-<div>
-<i class="fas fa-user-shield text-4xl gold mb-4"></i>
-<p class="font-black uppercase text-sm">Safe Journey</p>
 </div>
 
 </div>
@@ -442,6 +454,15 @@ RENT EASY • RIDE EASY • CAR WALA DOST
 </p>
 
 </footer>
+
+<!-- WHATSAPP FLOAT -->
+
+<a href="https://wa.me/918285278722"
+class="fixed bottom-6 right-6 w-16 h-16 rounded-full bg-green-500 flex items-center justify-center text-3xl shadow-2xl z-50 hover:scale-110 transition">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
 
 </body>
 </html>
