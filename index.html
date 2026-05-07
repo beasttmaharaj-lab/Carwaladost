@@ -1,100 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Wala Dost | Greater Noida</title>
     <style>
-        body { background-color: #000; color: #fff; font-family: sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { padding: 40px 20px; border-bottom: 2px solid #f4b41a; background: #000; }
-        .logo { font-size: 28px; font-weight: 900; letter-spacing: -1px; }
+        body { background-color: #05070a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; text-align: center; }
+        .header { padding: 25px 10px; border-bottom: 2px solid #f4b41a; background: #000; position: sticky; top: 0; z-index: 100; }
         .gold { color: #f4b41a; }
-        .hero { padding: 50px 20px; }
-        .hero h2 { font-size: 32px; margin: 10px 0; text-transform: uppercase; }
-        .btn { background: #f4b41a; color: #000; padding: 18px 35px; border-radius: 12px; font-weight: 900; text-decoration: none; display: inline-block; margin-top: 20px; text-transform: uppercase; }
-        .container { padding: 15px; }
-        .car-card { background: #111; border-radius: 25px; margin-bottom: 35px; border: 1px solid #222; overflow: hidden; padding-bottom: 25px; }
-        .car-card img { width: 100%; height: auto; display: block; border-bottom: 1px solid #222; }
-        .car-name { font-size: 24px; font-weight: 900; margin: 20px 0 10px; text-transform: uppercase; }
-        .info-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 0 15px; }
-        .info-box { background: #222; padding: 10px 15px; border-radius: 8px; font-size: 11px; font-weight: bold; min-width: 100px; color: #ccc; }
-        .requirements { background: #0a0a0a; padding: 30px 20px; border-radius: 20px; margin: 20px 0; border: 1px dashed #333; text-align: left; }
-        .requirements h3 { color: #f4b41a; margin-bottom: 15px; text-align: center; text-transform: uppercase; }
-        .req-item { margin-bottom: 10px; font-size: 13px; color: #bbb; border-left: 3px solid #f4b41a; padding-left: 10px; }
-        .footer-card { background: #f4b41a; color: #000; padding: 40px 20px; border-radius: 30px; margin-top: 20px; }
-        .footer-card h3 { font-size: 28px; margin: 0 0 10px; text-transform: uppercase; }
-        .address { font-size: 14px; font-weight: bold; margin-bottom: 20px; line-height: 1.4; }
-        .phone-link { color: #000; text-decoration: none; font-size: 32px; font-weight: 900; display: block; margin-top: 15px; }
+        .btn { background: #f4b41a; color: #000; padding: 18px 35px; border-radius: 15px; font-weight: 900; text-decoration: none; display: inline-block; margin: 25px 0; text-transform: uppercase; box-shadow: 0 4px 15px rgba(244,180,26,0.3); }
+        .container { padding: 15px; max-width: 500px; margin: auto; }
+        .car-card { background: #0f1218; border-radius: 25px; margin-bottom: 35px; border: 1px solid #1c1f24; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .car-card img { width: 100%; height: 230px; object-fit: cover; display: block; border-bottom: 2px solid #f4b41a; background: #111; }
+        .car-content { padding: 25px; }
+        .car-name { font-size: 24px; font-weight: 900; margin-bottom: 15px; text-transform: uppercase; letter-spacing: -0.5px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .info-box { background: #161b22; padding: 12px; border-radius: 12px; font-size: 11px; font-weight: 900; color: #888; text-transform: uppercase; }
+        .visit-card { background: #f4b41a; color: #000; padding: 40px 20px; border-radius: 40px; margin: 40px 0; box-shadow: 0 15px 40px rgba(244,180,26,0.2); }
+        .phone { font-size: 32px; font-weight: 900; text-decoration: none; color: #000; display: block; margin-top: 15px; letter-spacing: -1px; }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <div class="logo">CAR WALA <span class="gold">DOST</span></div>
-    </div>
+    <nav class="header">
+        <h1 style="font-size: 22px; margin: 0; font-weight: 900; letter-spacing: -1px; font-style: italic;">CAR WALA <span class="gold">DOST</span></h1>
+    </nav>
 
-    <div class="hero">
-        <p class="gold" style="letter-spacing: 3px; font-weight: bold; font-size: 11px;">PREMIUM SELF DRIVE RENTALS</p>
-        <h2>Drive Your <span class="gold">Journey</span></h2>
-        <a href="https://wa.me/918285278722" class="btn">Book via WhatsApp</a>
-    </div>
+    <header style="padding: 50px 20px;">
+        <p class="gold" style="font-size: 10px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 10px;">Private Touring Club</p>
+        <h2 style="font-size: 38px; font-weight: 900; text-transform: uppercase; line-height: 1.1;">Drive Your <br><span class="gold">Journey</span></h2>
+        <a href="https://wa.me/918285278722" class="btn">Instant Booking</a>
+    </header>
 
     <div class="container">
         <div class="car-card">
-            <img src="https://imgd.aeplcdn.com/640x360/n/cw/ec/128413/scorpio-classic-exterior-front-left-three-quarter.jpeg" alt="Scorpio">
-            <div class="car-name">Scorpio Classic</div>
-            <div class="info-grid">
-                <div class="info-box">7 SEATER</div>
-                <div class="info-box gold">DIESEL MT</div>
-                <div class="info-box">PEARL WHITE</div>
-                <div class="info-box gold">MAHARAJ CHOICE</div>
+            <img src="https://images.unsplash.com/photo-1594502184342-2e12f877aa73?auto=format&fit=crop&q=80&w=800" alt="Scorpio Classic">
+            <div class="car-content">
+                <div class="car-name">Scorpio Classic</div>
+                <div class="info-grid">
+                    <div class="info-box">7 Seater</div>
+                    <div class="info-box gold">Diesel MT</div>
+                    <div class="info-box">Pearl White</div>
+                    <div class="info-box gold">Self Drive</div>
+                </div>
             </div>
         </div>
 
         <div class="car-card">
-            <img src="https://imgd.aeplcdn.com/640x360/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg" alt="Thar">
-            <div class="car-name gold">Mahindra Thar</div>
-            <div class="info-grid">
-                <div class="info-box">4X4 DRIVE</div>
-                <div class="info-box gold">BLACK BEAST</div>
-                <div class="info-box">HARD TOP</div>
-                <div class="info-box gold">ADVENTURE</div>
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800" alt="Thar 4x4">
+            <div class="car-content">
+                <div class="car-name gold">Mahindra Thar 4X4</div>
+                <div class="info-grid">
+                    <div class="info-box">Black Beast</div>
+                    <div class="info-box gold">Hard Top</div>
+                    <div class="info-box">Adventure</div>
+                    <div class="info-box gold">Off-Roading</div>
+                </div>
             </div>
         </div>
 
-        <div class="car-card">
-            <img src="https://imgd.aeplcdn.com/640x360/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-66.jpeg" alt="Baleno">
-            <div class="car-name">Nexa Baleno</div>
-            <div class="info-grid">
-                <div class="info-box">5 SEATER</div>
-                <div class="info-box gold">PETROL MT</div>
-                <div class="info-box">NEXA BLUE</div>
-                <div class="info-box gold">PREMIUM RIDE</div>
-            </div>
-        </div>
-
-        <div class="requirements">
-            <h3>Rental Terms</h3>
-            <div class="req-item">Original DL & Aadhar Card Mandatory</div>
-            <div class="req-item">2-Wheeler Submission as Security</div>
-            <div class="req-item">Refundable Security Deposit Applicable</div>
-            <div class="req-item">Available for NCR & Outstation</div>
-        </div>
-
-        <div class="footer-card">
-            <h3>Visit Garage</h3>
-            <div class="address">
-                GF-80A, GALLERIA MARKET<br>
-                THE HEMISPHERE, GREATER NOIDA
-            </div>
-            <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px;">
-                <a href="tel:8285278722" class="phone-link">8285278722</a>
-                <a href="tel:7895632615" style="text-decoration: none; color: black; font-weight: bold; opacity: 0.6;">7895632615</a>
-            </div>
+        <div class="visit-card">
+            <h3 style="font-size: 32px; font-weight: 900; text-transform: uppercase; margin: 0;">Visit Us</h3>
+            <p style="font-weight: 900; text-transform: uppercase; margin: 15px 0 5px; font-size: 16px;">GF-80A, Galleria Market</p>
+            <p style="font-size: 11px; font-weight: 900; opacity: 0.7; text-transform: uppercase;">(The Hemisphere, Greater Noida)</p>
+            <a href="tel:8285278722" class="phone">8285278722</a>
+            <p style="font-weight: 900; opacity: 0.6; margin-top: 10px; font-size: 14px;">7895632615</p>
         </div>
     </div>
 
-    <p style="padding: 30px; opacity: 0.3; font-size: 10px; letter-spacing: 2px;">CAR WALA DOST • GREATER NOIDA</p>
+    <footer style="padding-bottom: 50px; opacity: 0.2; font-size: 9px; font-weight: 900; letter-spacing: 5px; text-transform: uppercase;">
+        Rent Easy • Ride Easy • Greater Noida
+    </footer>
 
 </body>
 </html>
