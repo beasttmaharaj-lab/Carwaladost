@@ -3,160 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Wala Dost | Greater Noida Premium Self-Drive</title>
+    <title>Car Wala Dost | Greater Noida Premium Rentals</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@400;600;900&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #05070a; }
+        @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05070a; color: white; }
         .heading-font { font-family: 'Syncopate', sans-serif; }
-        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
-        .gold-gradient { background: linear-gradient(135deg, #f4b41a 0%, #d49a00 100%); }
-        .hero-overlay { background: linear-gradient(0deg, #05070a 0%, rgba(5, 7, 10, 0.4) 100%); }
+        .gold-text { color: #f4b41a; }
+        .gold-bg { background-color: #f4b41a; }
+        .car-card { background: #0f1218; border: 1px solid rgba(244, 180, 26, 0.1); overflow: hidden; border-radius: 2rem; }
     </style>
 </head>
-<body class="text-white">
+<body class="pb-10">
 
-    <nav class="fixed top-0 w-full z-50 bg-[#05070a]/80 backdrop-blur-md border-b border-white/10 p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="heading-font text-xl tracking-tighter uppercase italic">CAR WALA <span class="text-yellow-500">DOST</span></h1>
-            <a href="tel:8285278722" class="gold-gradient text-black px-6 py-2 rounded-full font-black text-[10px] uppercase tracking-widest shadow-lg shadow-yellow-500/20">Call Support</a>
+    <nav class="fixed top-0 w-full z-50 bg-[#05070a]/95 backdrop-blur-md border-b border-white/10 p-4">
+        <div class="container mx-auto flex justify-between items-center text-center">
+            <h1 class="heading-font text-base tracking-tighter uppercase italic mx-auto">CAR WALA <span class="gold-text">DOST</span></h1>
         </div>
     </nav>
 
-    <header class="relative h-[80vh] flex items-center justify-center overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=2000" class="absolute inset-0 w-full h-full object-cover" alt="Luxury Background">
-        <div class="absolute inset-0 hero-overlay"></div>
-        <div class="relative z-10 text-center px-6">
-            <h2 class="text-yellow-500 font-black text-xs tracking-[0.4em] uppercase mb-4">The Private Touring Club</h2>
-            <h3 class="heading-font text-4xl md:text-7xl mb-8 leading-tight italic uppercase">Drive Like A <span class="text-yellow-500">King</span></h3>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="https://wa.me/918285278722" class="gold-gradient text-black font-black py-4 px-12 rounded-2xl shadow-2xl hover:scale-105 transition-all uppercase tracking-tighter">Book Now</a>
-                <a href="#fleet" class="bg-white/10 border border-white/20 backdrop-blur px-12 py-4 rounded-2xl font-black uppercase tracking-tighter hover:bg-white/20 transition-all">View Fleet</a>
-            </div>
-        </div>
+    <header class="pt-32 pb-12 px-6 text-center">
+        <h3 class="heading-font text-3xl mb-4 italic uppercase">Elite <span class="gold-text">Self-Drive</span></h3>
+        <p class="text-gray-500 font-black text-[10px] tracking-[0.4em] uppercase mb-8 italic">Greater Noida's Premium Fleet</p>
+        <a href="https://wa.me/918285278722" class="gold-bg text-black font-black py-4 px-10 rounded-2xl shadow-2xl inline-block uppercase tracking-tighter">
+            <i class="fab fa-whatsapp mr-2 text-xl"></i> Instant Booking
+        </a>
     </header>
 
-    <section id="fleet" class="py-24 px-6 container mx-auto">
-        <div class="mb-16">
-            <h2 class="heading-font text-3xl uppercase tracking-tighter mb-2">Our <span class="text-yellow-500 italic">Premium</span> Fleet</h2>
-            <p class="text-gray-500 font-medium uppercase tracking-[0.2em] text-xs">Peak Detailing • Guaranteed Comfort</p>
+    <section class="px-5 space-y-10">
+        
+        <div class="car-card shadow-2xl">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-Classic/9144/1660901509923/front-left-side-47.jpg" class="w-full h-56 object-cover" alt="Scorpio Classic">
+            <div class="p-8 text-center">
+                <h4 class="heading-font text-xl uppercase italic mb-6">Scorpio Classic</h4>
+                <div class="grid grid-cols-2 gap-4 text-[10px] font-black text-gray-400 uppercase tracking-widest">
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5">7 Seater</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5">Diesel MT</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 gold-text">Pearl White</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 gold-text">Maharaj Choice</div>
+                </div>
+            </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <div class="glass-card rounded-[2.5rem] overflow-hidden group">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Scorpio-Classic/9144/1660901509923/front-left-side-47.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Scorpio Classic">
-                </div>
-                <div class="p-8">
-                    <div class="flex justify-between items-start mb-6">
-                        <h4 class="heading-font text-2xl uppercase italic">Scorpio Classic <span class="block text-xs text-gray-500 mt-1 tracking-widest font-sans">Pearl White Edition</span></h4>
-                        <span class="bg-yellow-500 text-black text-[10px] font-black px-3 py-1 rounded-full">ELITE SUV</span>
-                    </div>
-                    <div class="grid grid-cols-2 gap-4 mb-8 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                        <div class="flex items-center"><i class="fas fa-users mr-2 text-yellow-500"></i> 7 Seater</div>
-                        <div class="flex items-center"><i class="fas fa-gas-pump mr-2 text-yellow-500"></i> Diesel Engine</div>
-                        <div class="flex items-center"><i class="fas fa-cog mr-2 text-yellow-500"></i> Manual Trans</div>
-                        <div class="flex items-center"><i class="fas fa-snowflake mr-2 text-yellow-500"></i> Dual Zone AC</div>
-                    </div>
-                    <a href="https://wa.me/918285278722" class="block text-center border border-yellow-500/30 py-4 rounded-2xl font-black text-sm uppercase hover:bg-yellow-500 hover:text-black transition-all">Check Availability</a>
+        <div class="car-card shadow-2xl">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10756/1690544520993/front-left-side-47.jpg" class="w-full h-56 object-cover" alt="Thar">
+            <div class="p-8 text-center">
+                <h4 class="heading-font text-xl uppercase italic gold-text">Mahindra Thar</h4>
+                <div class="grid grid-cols-2 gap-4 text-[10px] font-black text-gray-400 uppercase tracking-widest">
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5">4x4 Drive</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5">Black Beast</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 gold-text italic">Off-Road</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 gold-text italic">Adventure</div>
                 </div>
             </div>
+        </div>
 
-            <div class="glass-card rounded-[2.5rem] overflow-hidden group">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Thar/10756/1690544520993/front-left-side-47.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Mahindra Thar">
-                </div>
-                <div class="p-8">
-                    <div class="flex justify-between items-start mb-6">
-                        <h4 class="heading-font text-2xl uppercase italic">Mahindra Thar <span class="block text-xs text-gray-500 mt-1 tracking-widest font-sans">Black Beast 4x4</span></h4>
-                        <span class="bg-yellow-500 text-black text-[10px] font-black px-3 py-1 rounded-full">ADVENTURE</span>
-                    </div>
-                    <div class="grid grid-cols-2 gap-4 mb-8 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                        <div class="flex items-center"><i class="fas fa-mountain mr-2 text-yellow-500"></i> 4x4 Off-Road</div>
-                        <div class="flex items-center"><i class="fas fa-door-closed mr-2 text-yellow-500"></i> Hard Top</div>
-                        <div class="flex items-center"><i class="fas fa-compact-disc mr-2 text-yellow-500"></i> Touch Screen</div>
-                        <div class="flex items-center"><i class="fas fa-shield-alt mr-2 text-yellow-500"></i> All-Terrain</div>
-                    </div>
-                    <a href="https://wa.me/918285278722" class="block text-center border border-yellow-500/30 py-4 rounded-2xl font-black text-sm uppercase hover:bg-yellow-500 hover:text-black transition-all">Check Availability</a>
+        <div class="car-card shadow-2xl">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/11181/1715249455322/front-left-side-47.jpg" class="w-full h-56 object-cover" alt="Swift">
+            <div class="p-8 text-center">
+                <h4 class="heading-font text-xl uppercase italic">Swift / Baleno</h4>
+                <div class="grid grid-cols-2 gap-4 text-[10px] font-black text-gray-400 uppercase tracking-widest text-center">
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 italic">Nexa Blue</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 italic uppercase">5 Seater</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 italic gold-text">High Mileage</div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/5 italic gold-text text-center">Comfort</div>
                 </div>
             </div>
+        </div>
 
-            <div class="glass-card rounded-[2.5rem] overflow-hidden group">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Baleno/10530/1689674068537/front-left-side-47.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Maruti Baleno">
-                </div>
-                <div class="p-8">
-                    <div class="flex justify-between items-start mb-6">
-                        <h4 class="heading-font text-2xl uppercase italic">Maruti Baleno <span class="block text-xs text-gray-500 mt-1 tracking-widest font-sans">Premium Nexa Blue</span></h4>
-                        <span class="bg-yellow-500 text-black text-[10px] font-black px-3 py-1 rounded-full">PREMIUM HATCH</span>
-                    </div>
-                    <div class="grid grid-cols-2 gap-4 mb-8 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                        <div class="flex items-center"><i class="fas fa-couch mr-2 text-yellow-500"></i> 5 Seater</div>
-                        <div class="flex items-center"><i class="fas fa-gas-pump mr-2 text-yellow-500"></i> Petrol MT/AT</div>
-                        <div class="flex items-center"><i class="fas fa-camera mr-2 text-yellow-500"></i> Rear Camera</div>
-                        <div class="flex items-center"><i class="fas fa-music mr-2 text-yellow-500"></i> Premium Sound</div>
-                    </div>
-                    <a href="https://wa.me/918285278722" class="block text-center border border-yellow-500/30 py-4 rounded-2xl font-black text-sm uppercase hover:bg-yellow-500 hover:text-black transition-all">Check Availability</a>
-                </div>
-            </div>
+    </section>
 
-            <div class="glass-card rounded-[2.5rem] overflow-hidden group">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift/11181/1715249455322/front-left-side-47.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Maruti Swift">
-                </div>
-                <div class="p-8">
-                    <div class="flex justify-between items-start mb-6">
-                        <h4 class="heading-font text-2xl uppercase italic">Maruti Swift <span class="block text-xs text-gray-500 mt-1 tracking-widest font-sans">Arctic White Sport</span></h4>
-                        <span class="bg-yellow-500 text-black text-[10px] font-black px-3 py-1 rounded-full">COMFORT RIDE</span>
-                    </div>
-                    <div class="grid grid-cols-2 gap-4 mb-8 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                        <div class="flex items-center"><i class="fas fa-bolt mr-2 text-yellow-500"></i> High Mileage</div>
-                        <div class="flex items-center"><i class="fas fa-parking mr-2 text-yellow-500"></i> Easy Parking</div>
-                        <div class="flex items-center"><i class="fas fa-wind mr-2 text-yellow-500"></i> Chilled AC</div>
-                        <div class="flex items-center"><i class="fas fa-mobile-alt mr-2 text-yellow-500"></i> Apple CarPlay</div>
-                    </div>
-                    <a href="https://wa.me/918285278722" class="block text-center border border-yellow-500/30 py-4 rounded-2xl font-black text-sm uppercase hover:bg-yellow-500 hover:text-black transition-all">Check Availability</a>
-                </div>
+    <section class="px-5 py-10 pb-20">
+        <div class="gold-bg text-black p-10 rounded-[3rem] shadow-2xl text-center">
+            <h3 class="heading-font text-2xl mb-4 uppercase italic tracking-tighter">Visit Us</h3>
+            <p class="font-black text-lg mb-1 leading-none uppercase">GF-80A, GALLERIA MARKET</p>
+            <p class="text-[9px] font-bold mb-8 opacity-60 uppercase tracking-[0.2em] italic leading-tight">(The Hemisphere, Greater Noida)</p>
+            <div class="space-y-4 pt-6 border-t border-black/10">
+                <a href="tel:8285278722" class="block font-black text-3xl tracking-tighter italic underline">8285278722</a>
+                <a href="tel:7895632615" class="block font-black text-xl tracking-tighter italic opacity-60">7895632615</a>
             </div>
         </div>
     </section>
-
-    <section class="py-24 bg-zinc-950 px-6 border-t border-white/5">
-        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <div class="glass-card p-10 rounded-[2rem]">
-                <h3 class="heading-font text-xl text-yellow-500 mb-6 uppercase tracking-tighter italic">Documents Required</h3>
-                <ul class="space-y-4 text-xs font-bold text-gray-400 uppercase tracking-[0.2em]">
-                    <li class="flex items-center"><i class="fas fa-id-card mr-4 text-yellow-500"></i> Valid Driving License</li>
-                    <li class="flex items-center"><i class="fas fa-address-book mr-4 text-yellow-500"></i> Original Aadhar Card</li>
-                    <li class="flex items-center"><i class="fas fa-check-circle mr-4 text-yellow-500"></i> Local ID Proof</li>
-                    <li class="flex items-center"><i class="fas fa-motorcycle mr-4 text-yellow-500"></i> 2-Wheeler Deposit</li>
-                </ul>
-            </div>
-            <div class="glass-card p-10 rounded-[2rem]">
-                <h3 class="heading-font text-xl text-yellow-500 mb-6 uppercase tracking-tighter italic">Rental Policies</h3>
-                <ul class="space-y-4 text-xs font-bold text-gray-400 uppercase tracking-[0.2em]">
-                    <li>• Min. Age 21 Years</li>
-                    <li>• Security Deposit Applicable</li>
-                    <li>• Valid for Delhi-NCR</li>
-                    <li>• 24-Hour Rental Cycles</li>
-                </ul>
-            </div>
-            <div class="glass-card p-10 rounded-[2rem]">
-                <h3 class="heading-font text-xl text-yellow-500 mb-6 uppercase tracking-tighter italic">Location</h3>
-                <p class="text-sm font-black mb-1 leading-tight">GF-80A, GALLERIA MARKET</p>
-                <p class="text-[10px] font-bold mb-6 text-gray-500 uppercase tracking-widest">The Hemisphere, Greater Noida</p>
-                <div class="space-y-2 border-t border-white/10 pt-4">
-                    <p class="text-lg font-black tracking-tighter italic"><i class="fas fa-phone mr-3 text-yellow-500"></i> 8285278722</p>
-                    <p class="text-lg font-black tracking-tighter italic"><i class="fas fa-phone mr-3 text-yellow-500"></i> 7895632615</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-10 text-center bg-black">
-        <p class="opacity-20 text-[8px] font-black tracking-[0.8em] uppercase text-yellow-500">Private Touring Club • Self Drive Rentals</p>
-    </footer>
 
 </body>
 </html>
