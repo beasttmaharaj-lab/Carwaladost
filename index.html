@@ -3,73 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Wala Dost | Greater Noida</title>
+    <title>Car Wala Dost | Greater Noida Private Touring Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #05070a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { padding: 25px 10px; border-bottom: 2px solid #f4b41a; background: #000; position: sticky; top: 0; z-index: 100; }
-        .gold { color: #f4b41a; }
-        .btn { background: #f4b41a; color: #000; padding: 18px 35px; border-radius: 15px; font-weight: 900; text-decoration: none; display: inline-block; margin: 25px 0; text-transform: uppercase; box-shadow: 0 4px 15px rgba(244,180,26,0.3); }
-        .container { padding: 15px; max-width: 500px; margin: auto; }
-        .car-card { background: #0f1218; border-radius: 25px; margin-bottom: 35px; border: 1px solid #1c1f24; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .car-card img { width: 100%; height: 230px; object-fit: cover; display: block; border-bottom: 2px solid #f4b41a; background: #111; }
-        .car-content { padding: 25px; }
-        .car-name { font-size: 24px; font-weight: 900; margin-bottom: 15px; text-transform: uppercase; letter-spacing: -0.5px; }
-        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        .info-box { background: #161b22; padding: 12px; border-radius: 12px; font-size: 11px; font-weight: 900; color: #888; text-transform: uppercase; }
-        .visit-card { background: #f4b41a; color: #000; padding: 40px 20px; border-radius: 40px; margin: 40px 0; box-shadow: 0 15px 40px rgba(244,180,26,0.2); }
-        .phone { font-size: 32px; font-weight: 900; text-decoration: none; color: #000; display: block; margin-top: 15px; letter-spacing: -1px; }
+        @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05070a; color: white; scroll-behavior: smooth; }
+        .heading-font { font-family: 'Syncopate', sans-serif; }
+        .gold-text { color: #f4b41a; }
+        .gold-bg { background-color: #f4b41a; }
+        .car-card { background: #111827; border: 1px solid rgba(244, 180, 26, 0.2); }
+        .feature-tag { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 8px; border-radius: 12px; text-align: center; font-size: 10px; font-weight: 900; text-transform: uppercase; }
     </style>
 </head>
-<body>
+<body class="pb-10">
 
-    <nav class="header">
-        <h1 style="font-size: 22px; margin: 0; font-weight: 900; letter-spacing: -1px; font-style: italic;">CAR WALA <span class="gold">DOST</span></h1>
+    <nav class="fixed top-0 w-full z-50 bg-[#05070a]/95 backdrop-blur-md border-b border-white/10 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="heading-font text-lg tracking-tighter uppercase italic">CAR WALA <span class="gold-text">DOST</span></h1>
+            <a href="tel:8285278722" class="gold-bg text-black px-4 py-2 rounded-full font-black text-[10px] uppercase shadow-lg hover:scale-105 transition-transform">CALL SUPPORT</a>
+        </div>
     </nav>
 
-    <header style="padding: 50px 20px;">
-        <p class="gold" style="font-size: 10px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 10px;">Private Touring Club</p>
-        <h2 style="font-size: 38px; font-weight: 900; text-transform: uppercase; line-height: 1.1;">Drive Your <br><span class="gold">Journey</span></h2>
-        <a href="https://wa.me/918285278722" class="btn">Instant Booking</a>
+    <header class="pt-32 pb-12 px-6 text-center">
+        <h2 class="gold-text font-black text-[10px] tracking-[0.4em] uppercase mb-4 italic leading-none">Greater Noida's No. 1 Private Touring Club</h2>
+        <h3 class="heading-font text-3xl md:text-5xl mb-6 italic uppercase leading-tight underline decoration-yellow-500 decoration-4 underline-offset-8">Drive Your <span class="gold-text">Journey</span></h3>
+        <p class="text-gray-400 text-xs font-bold uppercase tracking-[0.2em] mb-10">All Types Cars For Self Drive • Available 24/7</p>
+        <div class="flex flex-col gap-3 items-center">
+            <a href="https://wa.me/918285278722" class="gold-bg text-black font-black py-4 px-10 rounded-2xl shadow-2xl w-full max-w-xs uppercase text-center tracking-tighter hover:scale-105 transition-transform text-lg">
+                <i class="fab fa-whatsapp mr-2 text-2xl"></i> BOOK NOW ON WHATSAPP
+            </a>
+            <p class="text-[9px] text-gray-500 font-bold uppercase tracking-widest mt-2">Free Delivery In Greater Noida*</p>
+        </div>
     </header>
 
-    <div class="container">
-        <div class="car-card">
-            <img src="https://images.unsplash.com/photo-1594502184342-2e12f877aa73?auto=format&fit=crop&q=80&w=800" alt="Scorpio Classic">
-            <div class="car-content">
-                <div class="car-name">Scorpio Classic</div>
-                <div class="info-grid">
-                    <div class="info-box">7 Seater</div>
-                    <div class="info-box gold">Diesel MT</div>
-                    <div class="info-box">Pearl White</div>
-                    <div class="info-box gold">Self Drive</div>
+    <section class="px-5 space-y-12 mt-10 max-w-4xl mx-auto">
+        
+        <div class="car-card rounded-[2.5rem] overflow-hidden shadow-2xl">
+            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/128413/scorpio-classic-exterior-front-left-three-quarter.jpeg" class="w-full h-64 object-cover" alt="Scorpio Classic Pearl White">
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <h4 class="heading-font text-xl md:text-2xl uppercase italic">Scorpio Classic</h4>
+                    <span class="gold-bg text-black text-[9px] font-black px-3 py-1 rounded-full uppercase italic tracking-wider">7 SEATER</span>
+                </div>
+                <p class="text-gray-500 text-[10px] font-black uppercase tracking-widest mb-6">Bold. Powerful. Pearl White SUV, built for Maharaj and every adventure.</p>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="feature-tag"><i class="fas fa-gas-pump mr-2 gold-text"></i> DIESEL MT</div>
+                    <div class="feature-tag gold-text italic">PEARL WHITE</div>
+                    <div class="feature-tag"><i class="fas fa-music mr-2 gold-text"></i> Premium Sound</div>
+                    <div class="feature-tag"><i class="fas fa-snowflake mr-2 gold-text"></i> Power AC</div>
+                </div>
+                <div class="space-y-4">
+                    <a href="https://wa.me/918285278722" class="block text-center gold-bg text-black py-4 rounded-xl font-black text-xs uppercase italic tracking-tighter">Instant Booking</a>
+                    <a href="tel:8285278722" class="block text-center border border-yellow-500/30 py-4 rounded-xl font-black text-xs uppercase text-yellow-500 italic">Call for Special Offer</a>
                 </div>
             </div>
         </div>
 
-        <div class="car-card">
-            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800" alt="Thar 4x4">
-            <div class="car-content">
-                <div class="car-name gold">Mahindra Thar 4X4</div>
-                <div class="info-grid">
-                    <div class="info-box">Black Beast</div>
-                    <div class="info-box gold">Hard Top</div>
-                    <div class="info-box">Adventure</div>
-                    <div class="info-box gold">Off-Roading</div>
+        <div class="car-card rounded-[2.5rem] overflow-hidden shadow-2xl">
+            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg" class="w-full h-64 object-cover" alt="Thar Black Beast">
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <h4 class="heading-font text-xl md:text-2xl uppercase italic gold-text font-black">Mahindra Thar</h4>
+                    <span class="gold-bg text-black text-[9px] font-black px-3 py-1 rounded-full uppercase italic tracking-wider">4X4 Drive</span>
+                </div>
+                <p class="text-gray-500 text-[10px] font-black uppercase tracking-widest mb-6">Glossy Black Beast. Hard Top 4x4. Dominate any terrain in style.</p>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="feature-tag"><i class="fas fa-mountain mr-2 gold-text"></i> OFF-ROAD READY</div>
+                    <div class="feature-tag gold-text italic">BLACK BEAST</div>
+                    <div class="feature-tag"><i class="fas fa-door-closed mr-2 gold-text"></i> HARD TOP</div>
+                    <div class="feature-tag"><i class="fas fa-user-friends mr-2 gold-text"></i> 4 SEATER</div>
+                </div>
+                <div class="space-y-4">
+                    <a href="https://wa.me/918285278722" class="block text-center gold-bg text-black py-4 rounded-xl font-black text-xs uppercase italic tracking-tighter">Rent the Legend</a>
+                    <a href="tel:8285278722" class="block text-center border border-yellow-500/30 py-4 rounded-xl font-black text-xs uppercase text-yellow-500 italic">Instant Call Back</a>
                 </div>
             </div>
         </div>
 
-        <div class="visit-card">
-            <h3 style="font-size: 32px; font-weight: 900; text-transform: uppercase; margin: 0;">Visit Us</h3>
-            <p style="font-weight: 900; text-transform: uppercase; margin: 15px 0 5px; font-size: 16px;">GF-80A, Galleria Market</p>
-            <p style="font-size: 11px; font-weight: 900; opacity: 0.7; text-transform: uppercase;">(The Hemisphere, Greater Noida)</p>
-            <a href="tel:8285278722" class="phone">8285278722</a>
-            <p style="font-weight: 900; opacity: 0.6; margin-top: 10px; font-size: 14px;">7895632615</p>
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="car-card rounded-[2.5rem] overflow-hidden shadow-2xl">
+                <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-66.jpeg" class="w-full h-52 object-cover" alt="Nexa Baleno Blue">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h4 class="heading-font text-lg uppercase italic leading-none">Nexa Baleno</h4>
+                        <span class="gold-bg text-black text-[9px] font-black px-2 py-1 rounded-full">PREMIUM</span>
+                    </div>
+                    <p class="text-gray-500 text-[10px] font-black uppercase tracking-widest mb-6">Stylish Nexa Blue. Ultimate comfort for city travel.</p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between text-[10px] font-black tracking-widest text-gray-400"><span>FUEL</span><span class="text-white uppercase">PETROL MT</span></div>
+                        <div class="flex justify-between text-[10px] font-black tracking-widest text-gray-400"><span>FEATURES</span><span class="gold-text uppercase font-sans">Nexa Safety / Sound</span></div>
+                    </div>
+                    <a href="https://wa.me/918285278722" class="block text-center gold-bg text-black py-3 rounded-xl font-black text-xs uppercase italic tracking-tighter">Book Premium</a>
+                </div>
+            </div>
+            <div class="car-card rounded-[2.5rem] overflow-hidden shadow-2xl">
+                <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/159099/swift-exterior-right-front-three-quarter.jpeg" class="w-full h-52 object-cover" alt="Maruti Swift White">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h4 class="heading-font text-lg uppercase italic leading-none">Maruti Swift</h4>
+                        <span class="gold-bg text-black text-[9px] font-black px-2 py-1 rounded-full italic">SPORTY</span>
+                    </div>
+                    <p class="text-gray-500 text-[10px] font-black uppercase tracking-widest mb-6">Iconic Sporty Swift. Clean Arctic White. Your urban ruler.</p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between text-[10px] font-black tracking-widest text-gray-400"><span>FUEL</span><span class="text-white uppercase">PETROL MT</span></div>
+                        <div class="flex justify-between text-[10px] font-black tracking-widest text-gray-400"><span>FEATURES</span><span class="gold-text uppercase font-sans">High Mileage / AC</span></div>
+                    </div>
+                    <a href="https://wa.me/918285278722" class="block text-center gold-bg text-black py-3 rounded-xl font-black text-xs uppercase italic tracking-tighter">Rent Sporty</a>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <footer style="padding-bottom: 50px; opacity: 0.2; font-size: 9px; font-weight: 900; letter-spacing: 5px; text-transform: uppercase;">
-        Rent Easy • Ride Easy • Greater Noida
+    </section>
+
+    <section class="mt-20 px-6 max-w-4xl mx-auto space-y-6">
+        <div class="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 text-center">
+            <h3 class="heading-font text-xs gold-text mb-8 uppercase italic tracking-tighter border-l-2 border-yellow-500 pl-3">Why Car Wala Dost?</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-[10px] font-black text-gray-300 uppercase tracking-widest leading-loose">
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-rupee-sign text-3xl gold-text mb-2"></i> Afford Prices</div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-clock text-3xl gold-text mb-2"></i> 24/7 Service</div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-map-marker-alt text-3xl gold-text mb-2"></i> Easy Pickup</div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-shield-check text-3xl gold-text mb-2"></i> Sanitize Cars</div>
+            </div>
+        </div>
+
+        <div class="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 text-center">
+            <h3 class="heading-font text-xs gold-text mb-8 uppercase italic tracking-tighter border-l-2 border-yellow-500 pl-3">Mandatory Checklist</h3>
+            <div class="grid md:grid-cols-2 gap-6 text-[11px] font-black text-gray-400 uppercase tracking-widest leading-loose">
+                <p>1. Original Driving License (Must be Valid)</p>
+                <p>2. Original Aadhar Card (Address Verification)</p>
+                <p>3. Original Local ID Proof (Greater Noida Address)</p>
+                <p class="gold-text underline">4. 2-Wheeler Submission Mandatory (Security)</p>
+                <p>• Refundable Security Deposit Appilicable</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-5 py-16 pb-24 max-w-4xl mx-auto">
+        <div class="gold-bg text-black p-12 rounded-[4rem] shadow-2xl text-center">
+            <h3 class="heading-font text-3xl mb-6 uppercase italic leading-none tracking-tighter decoration-yellow-500 decoration-4 underline-offset-8">Visit The Garage</h3>
+            <p class="font-black text-xl mb-1 leading-none uppercase tracking-tighter">GF-80A, GALLERIA MARKET</p>
+            <p class="text-[11px] font-bold mb-10 opacity-60 uppercase tracking-[0.2em] italic leading-tight">(The Hemisphere, Near Delta - 1, Greater Noida)</p>
+            
+            <div class="space-y-4 pt-8 border-t border-black/10">
+                <a href="tel:8285278722" class="block font-black text-4xl tracking-tighter italic">8285278722</a>
+                <a href="tel:7895632615" class="block font-black text-2xl tracking-tighter italic opacity-50">7895632615</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center opacity-30 text-[9px] font-black tracking-[0.8em] uppercase gold-text py-10 border-t border-white/5">
+        RENT EASY • RIDE EASY • CAR WALA DOST CLUB
     </footer>
 
 </body>
